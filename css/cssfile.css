@@ -1,0 +1,288 @@
+*
+{
+	margin:0;
+	padding: 0;
+}
+#nav-bar
+{
+	position: sticky;
+	top:0;
+	z-index: 10;
+}
+.navbar-brand img
+{
+	height: 40px;
+	padding-left: 30px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+#nav-bar ul li a:hover
+{
+	color: #007bff;
+}
+.navbar
+{
+	background:#fff;
+}
+.navbar-toggler
+{
+	border: none;
+}
+.nav-link
+{
+	color: #555;
+	font-weight: 600;
+	font-size: 16px;
+}
+#slider
+{
+	width: 100%;
+}
+.carousel-caption
+{
+	top: 63%;
+	transform: translateY(-50%);
+	bottom: initial;
+}
+.carousel-caption h5
+{
+	color: #fff;
+	font-size: 42px;
+}
+#about
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+#about .btn
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.about-content
+{
+	padding-top: 20px;
+}
+.skills-bar p
+{
+	margin-top: 50px;
+	margin-bottom: 6px;
+	font-weight: 600;
+
+}
+.progress-bar
+
+{
+	border-radius: 16px;
+}
+.progress
+{
+	border-radius: 16px;
+	margin-bottom: 20px;
+}
+
+#services
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../1.png);
+	background-size: cover;
+	background-position: center;
+	color:#efefef;
+	background-attachment: fixed;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#services h1
+{
+	text-align: center;
+	color: #efefef;
+	padding-bottom: 10px;
+}
+#services h1:after
+{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+
+}
+#services col-md-3 text-center
+{
+	float: left;
+}
+#name
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../b.png);
+	background-size: cover;
+	background-position: center;
+	color:#efefef;
+	background-attachment: fixed;
+	padding-top: 250px;
+	padding-bottom: 250px;
+	animation: animate 3s linear infinite;
+}
+
+
+@keyframes animate{
+	0%,100%
+	{
+		color: #111;
+		filter: invert(100%);
+		box-shadow: 0 0 10px #00b3ff,
+		            0 0 20px #00b3ff,
+		            0 0 40px #00b3ff,
+		            0 0 80px #00b3ff,
+		            0 0 120px #00b3ff,
+		            0 0 200px #00b3ff,
+		            0 0 300px #00b3ff,
+	}
+	5%,95%
+	{
+		color: #111;
+		filter: invert(100%);
+		text-shadow: 0 0 10px none;
+	}
+}
+#name h1
+{
+	text-align: center;
+	color: #efefef;
+	padding-bottom: 10px;
+	font-size: 100px;
+	font-family: Montserrat;
+}
+
+
+.dropbtn {
+top:1000px;
+left:1000px;
+ background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  font-family: Montserrat;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: table-cell;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+transition: 1s ease;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: inline-block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:700|Oswald:400:700);
+
+body
+{
+  background: url(http://www.ambrosiasw.com/assets/images/graphics_products/ipadwallpaper/wallpaper/Felt-Green.jpg);
+}
+
+h1
+{
+  font-size: 60px;
+  font-family: 'Josefin Sans';
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  color: #fff;
+}
+
+.sleeve
+{
+  position: relative;
+  background: transparent;
+  line-height: 2.5em;
+  border: 0;
+  padding: 0 40px 0 15px;
+  border: 1px solid #aaa;
+  border-radius: 4px 200px 0px 4px;
+  background: linear-gradient(to bottom, rgba(150,150,150,1) 0%,rgba(150,150,150,1) 100%);
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #000;
+  text-shadow: 0px 1px 3px #fff;
+  margin-right: 120px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+  min-width: 170px;
+}
+
+.insert
+{
+  position: absolute;
+  left: 10px;
+  top: 3%;
+  display: block;
+  z-index: -100;
+  width: 100%;
+  height: 94%;
+  box-sizing: border-box;
+  background: linear-gradient(to bottom, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%);
+  font-family: 'Oswald';
+  font-size: 13px;
+  color: #fff;
+  text-shadow: 0 1px 0px rgba(0,0,0,0.6);
+  border-radius: 2px;
+  text-align: right;
+  padding-right:10px;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.50) inset, 2px 2px 5px rgba(0,0,0,0.5);
+  transition: all 1s ease-in-out;
+  border-right: 1px dotted rgba(0,0,0,0.5);
+}
+
+.sleeve:hover .insert
+{
+  text-align: right;
+  width: 150%;
+  transition: all 0.8s ease-in-out;
+}
+
+.insert.register
+{
+  background: linear-gradient(to bottom, rgba(73,125,193,1) 0%,rgba(39,71,114,1) 100%);
+}
+
+.insert.login
+{
+  background: linear-gradient(to bottom, rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%);
+}
+
+.insert.playquiz
+{
+  
+  background: linear-gradient(to bottom, rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%);
+}
